@@ -1,0 +1,8 @@
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: simple
+spec:
+  source:
+    image: gcr.io/cf-sandbox-trisberg/simple-accelerator

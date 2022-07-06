@@ -1,0 +1,18 @@
+apiVersion: kappctrl.k14s.io/v1alpha1
+kind: App
+metadata:
+  name: managed-accelerators
+  namespace: accelerator-system
+spec:
+  serviceAccountName: accelerator-controller-manager
+
+  fetch:
+  - git:
+      url: https://github.com/trisberg/managed-accelerators
+      ref: origin/main
+      subPath: resources
+
+  template:
+  - ytt: {}
+  deploy: 
+  - kapp: {}
