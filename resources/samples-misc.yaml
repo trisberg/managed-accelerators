@@ -1,8 +1,7 @@
 apiVersion: kappctrl.k14s.io/v1alpha1
 kind: App
 metadata:
-  name: samples-dotnet
-  namespace: accelerator-system
+  name: samples-misc
 spec:
   serviceAccountName: accelerator-managed-resources
 
