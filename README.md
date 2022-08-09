@@ -9,4 +9,9 @@ managedAccelerators:
     secretRef:
       name: secret-name
     subPath: resources
+  image:
+    url: host.com/username/image:v0.1.0
+    secretRef:
+      name: secret-name
+    subPath: resources
 ```
