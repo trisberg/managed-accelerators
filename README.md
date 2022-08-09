@@ -14,4 +14,8 @@ managedAccelerators:
     secretRef:
       name: secret-name
     subPath: resources
+  imgpkgBundle:
+    image: host.com/username/image:v0.1.0
+    secretRef:
+      name: secret-name
 ```
