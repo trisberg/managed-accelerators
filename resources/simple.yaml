@@ -1,9 +1,0 @@
----
-apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
-kind: Accelerator
-metadata:
-  name: simple
-  iconUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/124px-Information_icon.svg.png?20081119185556"
-spec:
-  source:
-    image: docker.io/trisberg/simple-accelerator

@@ -1,0 +1,11 @@
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: hello-world
+spec:
+  git:
+    url: https://github.com/trisberg/managed-accelerators.git
+    ref:
+      branch: main
+    subPath: accelerators/hello-world
