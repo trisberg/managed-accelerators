@@ -103,3 +103,4 @@ engine:
             with: "#artifactId"
         - type: RewritePath
           rewriteTo: "'README.md'"
+    - type: Provenance
