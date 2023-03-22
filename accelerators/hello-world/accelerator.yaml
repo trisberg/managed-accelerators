@@ -27,6 +27,9 @@ accelerator:
     description: The message will be prepended with the string 'Hello '
     defaultValue: World
 
+  imports:
+  - name: java-version
+
 engine:
   merge:
     - include: [ "**" ]
@@ -103,4 +106,8 @@ engine:
             with: "#artifactId"
         - type: RewritePath
           rewriteTo: "'README.md'"
+
+    - type: InvokeFragment
+      reference: java-version
+
     - type: Provenance
