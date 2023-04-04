@@ -9,3 +9,5 @@ spec:
     ref:
       branch: main
     subPath: accelerators/hello-world
+    secretRef:
+      name: managed-resources-auth
