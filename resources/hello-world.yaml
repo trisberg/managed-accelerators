@@ -10,4 +10,4 @@ spec:
       branch: main
     subPath: accelerators/hello-world
     secretRef:
-      name: git_credentials
+      name: git-credentials
